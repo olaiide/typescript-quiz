@@ -16,7 +16,7 @@ function App() {
 
   const nextQuestion = () => {};
 
-  fetchQuizQuestions(TOTAL_QUESTIONS, Difficulty.EASY)
+  console.log(fetchQuizQuestions(TOTAL_QUESTIONS, Difficulty.EASY))
 
   return (
     <div className='App'>
