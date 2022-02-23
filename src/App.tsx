@@ -15,7 +15,9 @@ function App() {
   const checkAnswer = (e: React.MouseEvent<HTMLButtonElement>) => {};
 
   const nextQuestion = () => {};
+
   fetchQuizQuestions(TOTAL_QUESTIONS, Difficulty.EASY)
+
   return (
     <div className='App'>
       <h1>React quiz</h1>
